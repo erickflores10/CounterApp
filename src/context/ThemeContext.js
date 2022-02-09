@@ -2,14 +2,12 @@ import { createContext } from "react";
 
 const options = {
     lightMode: {
-        active: null,
-        background: "#ffffff",
+        background: "#004aad",
         foreground: "000000"
     },
     darkMode: {
-        active: null,
         background: "#000000",
-        foreground: "#ffffff"
+        foreground: "#004aad"
     }
 }
 
