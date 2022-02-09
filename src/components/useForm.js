@@ -19,7 +19,7 @@ export const useForm = (initialState = {}) => {
      * @handleInputChange actualiza y guarda el nuevo estado al
      * llenar los campos. 
      */
-    const handleInputChange = ({ target }) => {
+    const handleInputChange = ({ target }) => { // {email, password} == target object.
         setValues({
             ...values,
             [target.name]: target.value
